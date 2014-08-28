@@ -2,15 +2,8 @@
 #
 # Create marks around your file system and easily jump around.
 #
-# Based/stolen from:
-# http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html
-#
-# Done some minor things to clean up/fix to work in my shell.
-#
-# jump FOO: jump to a mark named FOO or list all marks (no argument)
-# mark FOO: create a mark named FOO
-# unmark FOO: delete a mark
-# marks: lists all marks
+# For usage see README.md.
+
 
 # Set where to save the marks.
 export MARKPATH=$HOME/.marks
