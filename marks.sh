@@ -33,7 +33,12 @@ function mark {
 
 # Remove a mark.
 function unmark {
-    rm -i "$MARKPATH/$1"
+  if [ -z $1 ]; then
+    echo "Please specify a mark to unmark."
+    return
+  fi
+
+  rm -i "$MARKPATH/$1"
 }
 
 # Linux function.
